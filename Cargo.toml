@@ -1,0 +1,16 @@
+[package]
+name = "rusty-primes"
+version = "0.1.0"
+edition = "2024"
+description = "Count primes, blazingly fast. 🚀"
+
+[lib]
+name = "rusty_primes"
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.25.1"
+features = ["abi3-py313"]
+
