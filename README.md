@@ -11,9 +11,6 @@ Remember to install python3 development package (e.g. `sudo dnf install python3.
 
 ## Run
 
-Setup:
-` uvx maturin develop --uv`
+Setup:`uvx maturin develop --uv`
 
-Comparison:
-
-`uv run  rusty_primes_pythonic/comparison.py`
+Comparison: `uv run  rusty_primes_pythonic/comparison.py`
