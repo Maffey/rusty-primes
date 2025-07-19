@@ -10,12 +10,12 @@ _SHOULD_PRINT = False
 
 @time_function
 def python_implementation():
-    get_primes_pythonic(_NUMBER_OF_PRIMES_TO_GET, _SHOULD_PRINT)
+    return get_primes_pythonic(_NUMBER_OF_PRIMES_TO_GET, _SHOULD_PRINT)
 
 
 @time_function
 def rust_implementation():
-    get_primes(_NUMBER_OF_PRIMES_TO_GET, _SHOULD_PRINT)
+    return get_primes(_NUMBER_OF_PRIMES_TO_GET, _SHOULD_PRINT)
 
 
 def main():
@@ -24,9 +24,9 @@ def main():
     Function: 'test_pythonic' took: 1.58432961 sec
     Function: 'test_rustic' took: 0.16995263 sec
     """
-    python_implementation()
+    print(len(python_implementation()))
     time.sleep(2)
-    rust_implementation()
+    print(len(rust_implementation()))
 
 if __name__ == '__main__':
     main()

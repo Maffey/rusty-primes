@@ -6,7 +6,7 @@ A demo of Rust bindings.
 
 ## Prerequisites
 
-Remember to install python3 development package (e.g. `sudo dnf install python3.13-devel` on Fedora)
+Remember to install python3 development package (e.g. `sudo dnf install python3.13-devel` on Fedora, `sudo apt install python3-dev` on Debian)
 
 
 ## Run
